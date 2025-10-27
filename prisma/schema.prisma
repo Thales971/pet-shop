@@ -15,8 +15,9 @@ datasource db {
 
 model PetShop {
   id        Int      @id @default(autoincrement())
-  name      String
+  nome      String
   especie   String
+  raca      String
   idade     Int
   dono      String
   createdAt DateTime @default(now())

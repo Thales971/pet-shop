@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "PetShops" (
     "id" SERIAL NOT NULL,
-    "name" TEXT NOT NULL,
+    "nome" TEXT NOT NULL,
     "especie" TEXT NOT NULL,
     "idade" INTEGER NOT NULL,
     "dono" TEXT NOT NULL,
